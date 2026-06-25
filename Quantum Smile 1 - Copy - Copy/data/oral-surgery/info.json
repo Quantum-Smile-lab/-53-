@@ -1,0 +1,22 @@
+{
+  "id": "oral-surgery",
+  "name": "Oral Surgery",
+  "description": "Test version for Oral Surgery",
+
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Extraction",
+      "quiz": "data/oral-surgery/ch1-quiz.json",
+      "pdf": "data/oral-surgery/ch1-notes.pdf",
+      "questions": 20
+    },
+    {
+      "id": "ch2",
+      "name": "Impacted Teeth",
+      "quiz": "data/oral-surgery/ch2-quiz.json",
+      "pdf": "data/oral-surgery/ch2-notes.pdf",
+      "questions": 20
+    }
+  ]
+}
