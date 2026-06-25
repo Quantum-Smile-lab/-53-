@@ -1,0 +1,61 @@
+[
+{
+"question": "What is the most common complication after extraction?",
+"options": [
+"Dry socket",
+"Fracture",
+"Tumor",
+"Caries"
+],
+"correct": 0,
+"explanation": "Dry socket (alveolar osteitis) is the most common post-extraction complication and occurs due to loss of the blood clot from the socket."
+},
+
+{
+"question": "Which forceps are commonly used for upper first molars?",
+"options": [
+"150",
+"151",
+"Cowhorn",
+"Physics forceps"
+],
+"correct": 0,
+"explanation": "Forceps No. 150 are commonly used for extraction of maxillary teeth, including upper molars in basic clinical questions."
+},
+
+{
+"question": "What is the primary purpose of elevators during extraction?",
+"options": [
+"Polish the tooth",
+"Loosen the tooth",
+"Control bleeding",
+"Suture the socket"
+],
+"correct": 1,
+"explanation": "Dental elevators are mainly used to luxate and loosen the tooth before forceps extraction."
+},
+
+{
+"question": "Which nerve is commonly anesthetized before extraction of mandibular molars?",
+"options": [
+"Infraorbital nerve",
+"Mental nerve",
+"Inferior alveolar nerve",
+"Nasopalatine nerve"
+],
+"correct": 2,
+"explanation": "The inferior alveolar nerve block is the standard technique for anesthesia of mandibular molars."
+},
+
+{
+"question": "What should be placed over the extraction socket immediately after extraction?",
+"options": [
+"Cotton pellet",
+"Gauze pack",
+"Periodontal dressing",
+"Composite resin"
+],
+"correct": 1,
+"explanation": "A sterile gauze pack is placed over the extraction site to help achieve hemostasis and stabilize the blood clot."
+}
+]

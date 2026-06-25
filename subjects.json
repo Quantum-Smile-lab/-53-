@@ -1,0 +1,20 @@
+[
+  {
+    "id":   "oral-surgery",
+    "name": "Oral Surgery",
+    "icon": "🦷",
+    "file": "data/oral-surgery/info.json"
+  },
+  {
+    "id":   "operative",
+    "name": "Operative",
+    "icon": "🔬",
+    "file": "data/operative/info.json"
+  },
+  {
+    "id":   "endodontics",
+    "name": "Endodontics",
+    "icon": "🩺",
+    "file": "data/endodontics/info.json"
+  }
+]

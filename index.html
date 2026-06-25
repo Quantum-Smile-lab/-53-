@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum Smile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700;900&family=Cairo:wght@300;400;600;700&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stars" id="stars"></div>
+
+<!-- ===== HOME ===== -->
+<div class="screen active" id="home">
+  <div class="home-inner">
+
+    <div class="brand-section">
+      <div class="batch-name" id="batchName">دفعة 53</div>
+      <div class="brand-line"></div>
+<div class="welcome-text">أهلاً وسهلاً بكم 🦷</div>
+
+<!-- العداد التنازلي -->
+<div class="countdown-wrap">
+  <div class="countdown-label">Graduation after</div>
+  <div class="countdown-grid">
+    <div class="countdown-box">
+      <div class="countdown-val" id="cdSecs">00</div>
+      <div class="countdown-unit">Seconds</div>
+    </div>
+    <div class="countdown-sep">:</div>
+    <div class="countdown-box">
+      <div class="countdown-val" id="cdMins">00</div>
+      <div class="countdown-unit">Minutes</div>
+    </div>
+    <div class="countdown-sep">:</div>
+    <div class="countdown-box">
+      <div class="countdown-val" id="cdHours">00</div>
+      <div class="countdown-unit">Hours</div>
+    </div>
+    <div class="countdown-sep">:</div>
+    <div class="countdown-box">
+      <div class="countdown-val" id="cdDays">00</div>
+      <div class="countdown-unit">Days</div>
+    </div>
+  </div>
+</div>   </div>
+
+    <div class="subjects-grid" id="subjectsGrid"></div>
+
+    <div class="signature">
+      <span class="signature-text">Created by</span>
+      <span class="signature-name">Quantum Smile</span>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===== CHAPTERS ===== -->
+<div class="screen" id="chapters">
+  <div class="page-inner">
+
+    <button class="back-btn" id="backToHome">← Back</button>
+
+    <div class="page-header">
+      <div class="page-icon" id="chapterIcon">🦷</div>
+
+      <!-- اسم المادة كبير -->
+      <div class="page-title" id="chapterSubjectName">Subject</div>
+
+      <div class="page-subtitle">Select a Chapter</div>
+    </div>
+
+    <div class="chapters-grid" id="chaptersGrid"></div>
+
+  </div>
+</div>
+
+<!-- ===== TYPE SELECT ===== -->
+<div class="screen" id="typeSelect">
+  <div class="page-inner">
+
+    <button class="back-btn" id="backToChapters">← Back</button>
+
+    <div class="page-header">
+      <div class="page-icon" id="typeIcon">📖</div>
+
+      <!-- اسم المادة فوق -->
+      <div class="page-subject-label" id="typeSubjectLabel">Subject</div>
+      <!-- اسم الشابتر تحته -->
+      <div class="page-title" id="typeChapterName">Chapter</div>
+
+      <div class="page-subtitle">What would you like?</div>
+    </div>
+
+    <div class="type-grid">
+      <div class="type-card" id="btnPDF">
+        <div class="type-card-icon">📄</div>
+        <div class="type-card-name">Notes</div>
+        <div class="type-card-sub">PDF Summary</div>
+      </div>
+      <div class="type-card" id="btnQuiz">
+        <div class="type-card-icon">📝</div>
+        <div class="type-card-name">Quiz</div>
+        <div class="type-card-sub">Test Yourself</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===== QUIZ ===== -->
+<div class="screen" id="quiz">
+
+  <div class="quiz-header">
+    <button class="back-btn-quiz" id="backToType">← Back</button>
+
+    <!-- وسط الهيدر: اسم المادة + اسم الشابتر -->
+    <div class="header-center">
+      <div class="header-brand">QUANTUM SMILE</div>
+      <div class="header-location">
+        <span class="header-subject" id="headerSubject">Subject</span>
+        <span class="header-sep">›</span>
+        <span class="header-chapter" id="headerChapter">Chapter</span>
+      </div>
+    </div>
+
+    <div class="quiz-stats">
+      <div class="stat-pill">Q <span id="qCurrent">1</span> / <span id="qTotal">0</span></div>
+      <div class="stat-pill">✓ <span id="qScore">0</span></div>
+    </div>
+  </div>
+
+  <div class="progress-bar-wrap">
+    <div class="progress-bar-fill" id="progressFill"></div>
+  </div>
+
+  <div class="question-wrap">
+    <div class="question-meta">
+      <div class="q-number" id="qNum">1</div>
+      <div class="q-topic-tag" id="qTopicTag">Topic</div>
+    </div>
+    <div class="question-text" id="questionText">Loading…</div>
+    <div class="options-list" id="optionsList"></div>
+    <div class="feedback-box" id="feedbackBox">
+      <span id="feedbackIcon">✓</span>
+      <span id="feedbackText"></span>
+    </div>
+    <div class="quiz-nav">
+      <button class="nav-btn btn-skip" id="btnSkip">Skip</button>
+      <button class="nav-btn btn-next" id="btnNext" style="display:none">Next →</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- ===== RESULT ===== -->
+<div class="screen" id="result">
+  <div class="result-card">
+
+    <div class="result-emoji" id="resultEmoji">🎉</div>
+    <div class="result-title" id="resultTitle">Well Done!</div>
+    <div class="result-subtitle" id="resultSubtitle">Quiz Complete</div>
+
+    <div class="score-ring">
+      <svg width="130" height="130" viewBox="0 0 130 130">
+        <defs>
+          <linearGradient id="scoreGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#1a4db5"/>
+            <stop offset="100%" style="stop-color:#ffd700"/>
+          </linearGradient>
+        </defs>
+        <circle class="ring-bg" cx="65" cy="65" r="55"/>
+        <circle class="ring-fill" id="ringFill" cx="65" cy="65" r="55"/>
+      </svg>
+      <div class="score-text">
+        <div class="score-percent" id="scorePct">0%</div>
+        <div class="score-label">Score</div>
+      </div>
+    </div>
+
+    <div class="result-stats">
+      <div class="result-stat">
+        <div class="result-stat-val green" id="resCorrect">0</div>
+        <div class="result-stat-label">Correct</div>
+      </div>
+      <div class="result-stat">
+        <div class="result-stat-val red" id="resWrong">0</div>
+        <div class="result-stat-label">Wrong</div>
+      </div>
+      <div class="result-stat">
+        <div class="result-stat-val gold" id="resTotal">0</div>
+        <div class="result-stat-label">Total</div>
+      </div>
+    </div>
+
+    <button class="restart-btn" id="restartBtn">↺ Retry</button>
+    <button class="home-btn" id="homeBtn">🏠 Home</button>
+
+    <div class="signature" style="margin-top:24px">
+      <span class="signature-text">Created by</span>
+      <span class="signature-name">Quantum Smile</span>
+    </div>
+
+  </div>
+
+  <div class="wrong-review-section" id="wrongReviewSection"></div>
+</div>
+
+<!-- Loading -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loading-spinner"></div>
+  <div class="loading-text">Loading…</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
