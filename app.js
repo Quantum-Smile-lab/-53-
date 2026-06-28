@@ -558,7 +558,7 @@ function incrementQuiz() {
   localStorage.setItem('qs_quiz_count', String(count));
   return count;
 }
-/*
+
 // ===== GOOGLE FORM SUBMIT =====
 function submitToForm(studyID, visitCount, quizCount) {
   const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdM9WeD2E5fO4Flx5WAtH9cjVUs_DttGiEnzZKvXl8Is-ntfQ/formResponse';
@@ -582,8 +582,8 @@ function initAnalytics() {
   const quizCount  = parseInt(localStorage.getItem('qs_quiz_count') || '0');
   submitToForm(studyID, visitCount, quizCount);
 }
-*/
+
 // ===== START =====
 startCountdown();
-//initAnalytics();
+initAnalytics();
 init();
