@@ -1,61 +1,541 @@
 [
 {
-"question": "What is the most common complication after extraction?",
+"question": "What is the primary goal of the immune system's defensive mechanism?",
 "options": [
-"Dry socket",
-"Fracture",
-"Tumor",
-"Caries"
-],
-"correct": 0,
-"explanation": "Dry socket (alveolar osteitis) is the most common post-extraction complication and occurs due to loss of the blood clot from the socket."
-},
-
-{
-"question": "Which forceps are commonly used for upper first molars?",
-"options": [
-"150",
-"151",
-"Cowhorn",
-"Physics forceps"
-],
-"correct": 0,
-"explanation": "Forceps No. 150 are commonly used for extraction of maxillary teeth, including upper molars in basic clinical questions."
-},
-
-{
-"question": "What is the primary purpose of elevators during extraction?",
-"options": [
-"Polish the tooth",
-"Loosen the tooth",
-"Control bleeding",
-"Suture the socket"
+"To produce antibodies only",
+"To recognize, neutralize, and destroy foreign substances",
+"To increase body temperature",
+"To stimulate allergic reactions"
 ],
 "correct": 1,
-"explanation": "Dental elevators are mainly used to luxate and loosen the tooth before forceps extraction."
+"explanation": "The main goal of immunity is to recognize, neutralize, and destroy foreign substances like bacteria, viruses, and microbial products (Page 3)."
 },
-
 {
-"question": "Which nerve is commonly anesthetized before extraction of mandibular molars?",
+"question": "Which of the following is a characteristic of Natural (Innate) Immunity?",
 "options": [
-"Infraorbital nerve",
-"Mental nerve",
-"Inferior alveolar nerve",
-"Nasopalatine nerve"
+"It is highly specific",
+"It has a strong memory response",
+"It is not enhanced by previous exposure",
+"It takes weeks to develop"
 ],
 "correct": 2,
-"explanation": "The inferior alveolar nerve block is the standard technique for anesthesia of mandibular molars."
+"explanation": "Natural immunity is effective but not specific and is not enhanced by previous exposure to foreign substances (No memory) (Page 4)."
 },
-
 {
-"question": "What should be placed over the extraction socket immediately after extraction?",
+"question": "Which substance in the skin provides a high degree of protection due to being indigestible by microorganisms?",
 "options": [
-"Cotton pellet",
-"Gauze pack",
-"Periodontal dressing",
-"Composite resin"
+"Keratin",
+"Sebum",
+"Sweat",
+"Lysozyme"
+],
+"correct": 0,
+"explanation": "The skin contains indigestible keratin by microorganisms, along with high salt concentration and bactericidal properties of sebaceous glands (Page 4)."
+},
+{
+"question": "What is the role of cilia in the mucous membranes?",
+"options": [
+"Trap inhaled particles",
+"Sweep inhaled particles to the oropharynx",
+"Destroy bacteria via phagocytosis",
+"Produce lysozymes"
 ],
 "correct": 1,
-"explanation": "A sterile gauze pack is placed over the extraction site to help achieve hemostasis and stabilize the blood clot."
+"explanation": "Cilia sweep inhaled particles to the oropharynx, then they are swallowed, helping to clear the respiratory tract (Page 5)."
+},
+{
+"question": "Which of the following is an example of naturally occurring antimicrobial substances in the body?",
+"options": [
+"Histamine",
+"Heparin",
+"Interferon",
+"Prostaglandins"
+],
+"correct": 2,
+"explanation": "Naturally occurring antimicrobial substances include interferon, lysozyme, and complement (Page 7)."
+},
+{
+"question": "Which acute phase protein is synthesized by the liver during inflammatory processes?",
+"options": [
+"C-reactive protein (CRP)",
+"Histamine",
+"Bradykinin",
+"Serotonin"
+],
+"correct": 0,
+"explanation": "The acute phase response is associated with hepatic synthesis of certain proteins such as C-reactive protein, hepatoglobin, ceruloplasmin, and complement components (Page 9)."
+},
+{
+"question": "What is a Hapten?",
+"options": [
+"A large protein antigen",
+"A superantigen",
+"A small molecule that alone has no antigenicity but can combine with body proteins",
+"An antibody produced by B-cells"
+],
+"correct": 2,
+"explanation": "A hapten (incomplete or partial antigen) is an antigen with a small molecular weight, alone has no antigenicity, but when introduced in the body it combines with body proteins forming a conjugate that provokes an immune response (Page 13)."
+},
+{
+"question": "Which of the following is considered the most potent antigen based on molecular weight?",
+"options": [
+"Molecular weight under 5,000 Dalton",
+"Molecular weight over 10,000 Dalton",
+"Molecular weight exactly 5,000 Dalton",
+"Molecular weight under 1,000 Dalton"
+],
+"correct": 1,
+"explanation": "The most potent antigens are those with a molecular weight over 10,000 Dalton (Page 12)."
+},
+{
+"question": "What is the portion of an immunogen that combines with the antibody called?",
+"options": [
+"Epitope",
+"Hapten",
+"Superantigen",
+"Paratope"
+],
+"correct": 0,
+"explanation": "An epitope (antigenic determinant) is defined as that portion of an immunogen combining with the antibody (Page 14)."
+},
+{
+"question": "Which route of antigen administration is considered the safest?",
+"options": [
+"Intravenous (I.V.)",
+"Subcutaneous (S.C.) and Intramuscular (I.M.)",
+"Intradermal (I.D.)",
+"Oral"
+],
+"correct": 1,
+"explanation": "S.C. & I.M. routes of administration are the safest while I.V. is the most dangerous (Page 14)."
+},
+{
+"question": "Which of the following is an example of a Superantigen?",
+"options": [
+"Lipopolysaccharides of some bacteria",
+"Tetanus toxoid",
+"Albumin",
+"Polysaccharide capsule"
+],
+"correct": 0,
+"explanation": "Superantigen is an antigen eliciting a vigorous immune response. Examples include Lipopolysaccharides of some bacteria and retroviruses (Page 16)."
+},
+{
+"question": "Which cells are primarily involved in Cell-Mediated Immunity?",
+"options": [
+"B-Lymphocytes",
+"T-Lymphocytes",
+"Plasma cells",
+"Erythrocytes"
+],
+"correct": 1,
+"explanation": "T-Lymphocytes are concerned with cell-mediated immunity, representing 80-90% of circulating lymphocytes (Page 18)."
+},
+{
+"question": "What is the percentage of Natural Killer (NK) cells among circulating lymphocytes?",
+"options": [
+"80-90%",
+"5-15%",
+"5-10%",
+"1-2%"
+],
+"correct": 2,
+"explanation": "Natural Killer cells represent 5-10% of circulating lymphocytes (Page 18)."
+},
+{
+"question": "Which of the following is a function of Natural Killer (NK) cells?",
+"options": [
+"Production of antibodies",
+"Elimination of virally infected cells",
+"Presentation of antigens to T-cells",
+"Suppression of immune response"
+],
+"correct": 1,
+"explanation": "NK cells function in the elimination of virally infected cells, destruction of cells infected with intracellular bacteria, destruction of malignant cells, and rejection of tissue graft (Page 20)."
+},
+{
+"question": "Which organs are considered Primary Lymphoid Organs?",
+"options": [
+"Lymph nodes and Spleen",
+"Thymus and Bone marrow",
+"Tonsils and MALT",
+"Bronchial lymph nodes"
+],
+"correct": 1,
+"explanation": "Primary lymphoid organs are the sites for development and maturation of lymphocytes, in humans they are the thymus and bone marrow (Page 21)."
+},
+{
+"question": "The thymus gland develops from which pharyngeal pouches?",
+"options": [
+"1st and 2nd",
+"2nd and 3rd",
+"3rd and 4th",
+"4th and 5th"
+],
+"correct": 2,
+"explanation": "The thymus develops from the 3rd and 4th pharyngeal pouches in the six week of fetal life (Page 21)."
+},
+{
+"question": "What is the approximate life span of long-lived memory B-cells?",
+"options": [
+"4 days",
+"5-7 weeks",
+"5-10 years",
+"Over 40 years"
+],
+"correct": 3,
+"explanation": "Long lived memory B-cells survive over 40 years (life span of T cell is 5-10 years) (Page 24, Page 41)."
+},
+{
+"question": "Which T-helper subset is characterized by secreting specific cytokines that switch to the other subset?",
+"options": [
+"TH0",
+"TH1",
+"TH2",
+"TH17"
+],
+"correct": 1,
+"explanation": "TH1 tends to switch TH2 and vice versa. Some CD4 cells fall into the two categories and are termed T helper 0 (TH0) (Page 26)."
+},
+{
+"question": "What is the primary function of T Suppressor (Ts) lymphocytes?",
+"options": [
+"Kill target cells",
+"Down-regulate the immune system",
+"Activate macrophages",
+"Produce antibodies"
+],
+"correct": 1,
+"explanation": "T suppressor lymphocytes down-regulate the immune system, suppressing B-cells, controlling cytotoxicity, and down-regulating macrophage function (Page 29)."
+},
+{
+"question": "Which cytokine is produced by monocytes?",
+"options": [
+"Interferon-gamma (Type II)",
+"Interferon-alpha (Type I)",
+"Interferon-beta (Type I)",
+"Interleukin-2"
+],
+"correct": 1,
+"explanation": "Type I Interferon (alpha) is produced by Monocytes. Interferon (beta) is produced by Fibroblasts (Page 34)."
+},
+{
+"question": "What is the main stimulus for the release of Tumor Necrosis Factor (TNF) from macrophages?",
+"options": [
+"Lipopolysaccharide of bacterial cell wall",
+"Viral RNA",
+"Histamine",
+"Interleukin-10"
+],
+"correct": 0,
+"explanation": "TNF is a principle mediator in the host inflammatory response to gram-negative bacteria (like IL-1 secreted also by macrophages the main stimulus for release is the lipopolysaccharide of bacterial cell wall) (Page 35)."
+},
+{
+"question": "B-lymphocytes obtain their name from which organ in birds?",
+"options": [
+"Thymus",
+"Bursa of Fabricius",
+"Bone marrow",
+"Spleen"
+],
+"correct": 1,
+"explanation": "Removal of a lymphoid organ known as bursa of fabricius from near the hind gut of a chick results in complete inability to produce antibodies. These cells became known as bursa-derived or B-lymphocytes (Page 38)."
+},
+{
+"question": "Which fragment of an antibody is responsible for binding to the antigen?",
+"options": [
+"Fc fragment",
+"Fab fragment",
+"Hinge region",
+"Heavy chain constant region"
+],
+"correct": 1,
+"explanation": "The Fab fragment is the antigen-binding fragment, while the Fc fragment is the crystallizable fragment (Page 40)."
+},
+{
+"question": "Which of the following antibody functions involves the clumping together of antigen-bearing particles?",
+"options": [
+"Neutralization",
+"Precipitation",
+"Agglutination",
+"Opsonization"
+],
+"correct": 2,
+"explanation": "Agglutination is the clumping together of antigen-bearing particles, typically bacteria, RBC, or artificially coated latex particles (Page 43)."
+},
+{
+"question": "What is the process of making bacteria 'tasty' for phagocytosis by coating them with antibodies called?",
+"options": [
+"Neutralization",
+"Opsonization",
+"Agglutination",
+"ADCC"
+],
+"correct": 1,
+"explanation": "Opsonization is to make bacteria tasty for phagocytosis. When antibodies coat the antigen, it enhances its phagocytosis (Page 44)."
+},
+{
+"question": "Which immunoglobulin is the only one that can pass the placental barrier?",
+"options": [
+"IgM",
+"IgA",
+"IgG",
+"IgE"
+],
+"correct": 2,
+"explanation": "IgG (specially IgG1, 3, 4) is the only IgG2 that can pass the placental barrier providing the new born infant with maternal antibodies (Page 47)."
+},
+{
+"question": "Which immunoglobulin is predominant in the primary immune response?",
+"options": [
+"IgG",
+"IgM",
+"IgA",
+"IgE"
+],
+"correct": 1,
+"explanation": "IgM is predominant in primary immune response (predominate early in infections) while in later stages IgG predominates and IgM becomes negligible (Page 50)."
+},
+{
+"question": "What is the additional glycoprotein that dimeric IgA acquires to become secretory IgA (sIgA)?",
+"options": [
+"J chain",
+"Secretory piece",
+"Complement C3",
+"Albumin"
+],
+"correct": 1,
+"explanation": "Dimeric IgA acquires an additional glycoprotein 'secretory piece' (polyimmunoglobulin receptor) synthesized by epithelial cells to become sIgA (Page 52)."
+},
+{
+"question": "Which immunoglobulin is found in high levels in atopic patients and during parasitic infections?",
+"options": [
+"IgG",
+"IgM",
+"IgA",
+"IgE"
+],
+"correct": 3,
+"explanation": "IgE is present in serum of healthy individuals at extremely low levels but found in high levels in atopic patients and in response to parasitic infections (e.g., worms) (Page 54)."
+},
+{
+"question": "What is the function of IgD?",
+"options": [
+"Mediates allergic reactions",
+"Acts as a cell marker for virgin B-cells and involved in maturation",
+"Provides mucosal immunity",
+"Activates the classical complement pathway"
+],
+"correct": 1,
+"explanation": "IgD is present on the surface of B-cells during maturation so it is involved in maturation of B-cells and acts as a cell marker for virgin B-cells (Page 56)."
+},
+{
+"question": "Which complement pathway is considered the oldest?",
+"options": [
+"Classical pathway",
+"Alternative (Properdin) pathway",
+"Lectin pathway",
+"Coagulation pathway"
+],
+"correct": 1,
+"explanation": "Although the alternative pathway was discovered second, it is the oldest of the pathways (Page 59)."
+},
+{
+"question": "Which complement fragments are known as anaphylatoxins?",
+"options": [
+"C1q, C1r, C1s",
+"C3a, C4a, C5a",
+"C5b, C6, C7",
+"C3b, C4b"
+],
+"correct": 1,
+"explanation": "C3a, C4a, and C5a complement fragments are known as anaphylatoxins. They cause non-cytolytic release of histamine from mast cells and basophils (Page 62)."
+},
+{
+"question": "Which complement fragment is the most potent chemotactic factor?",
+"options": [
+"C3a",
+"C5a",
+"C4a",
+"C3b"
+],
+"correct": 1,
+"explanation": "C5a, in a very low concentration, is the most potent chemotactic factor derived from the complement system (Page 64)."
+},
+{
+"question": "Which complement fragment serves as a bridge between foreign particles and phagocytes (opsonization)?",
+"options": [
+"C3a",
+"C5a",
+"C3b",
+"C5b67"
+],
+"correct": 2,
+"explanation": "C3b accounts for most of the complement opsonic activity. Foreign particles coated with C3b bind to C3b receptors (CR-1) on phagocytes facilitating phagocytosis (Page 65)."
+},
+{
+"question": "What is the Membrane Attack Complex (MAC) composed of?",
+"options": [
+"C1q, C1r, C1s",
+"C3a, C5a",
+"C5b6789",
+"C3b, C4b"
+],
+"correct": 2,
+"explanation": "C5b678(9) is the membrane attack complex (MAC). Holes and transmembrane channels are made in the cell membrane leading to cell rupture and death (Page 66)."
+},
+{
+"question": "Which cells are the primary targets of the HIV virus, leading to severe immunodeficiency?",
+"options": [
+"B-Lymphocytes",
+"T-Helper (CD4) cells",
+"Cytotoxic T cells (CD8)",
+"Natural Killer cells"
+],
+"correct": 1,
+"explanation": "T helper lymphocytes (CD4) help the function of other cells (macrophages, B cells, cytotoxic cells). Their depletion is the hallmark of HIV/AIDS (Page 25)."
+},
+{
+"question": "What is the main function of Interleukin-1 (IL-1) secreted by macrophages?",
+"options": [
+"Inhibits T-helper cells",
+"Stimulates T-helper cells",
+"Promotes B-cell differentiation",
+"Induces fever"
+],
+"correct": 3,
+"explanation": "Systemic release of TNF has the same properties as IL-1, which includes fever inducing and production of acute phase proteins (Page 36)."
+},
+{
+"question": "Which antibody isotype is found in colostrum and provides immunity for the newborn infant?",
+"options": [
+"IgG",
+"IgM",
+"sIgA",
+"IgE"
+],
+"correct": 2,
+"explanation": "IgA is abundant in 'colostrum' which provides immunity for newborn infants. Colostrum contains 20% proteins, sIgA, high amount of salts (Page 51, 52)."
+},
+{
+"question": "What is the exact percentage of IgG in total serum immunoglobulin?",
+"options": [
+"75%",
+"15%",
+"10%",
+"0.004%"
+],
+"correct": 0,
+"explanation": "IgG represents 75% of the total serum Ig (Page 46)."
+},
+{
+"question": "Which IgG subclass is the most abundant?",
+"options": [
+"IgG1",
+"IgG2",
+"IgG3",
+"IgG4"
+],
+"correct": 0,
+"explanation": "IgG1 represents 60-70% of the total IgG subclasses (Page 46)."
+},
+{
+"question": "Antibody Dependent Cell Mediated Cytotoxicity (ADCC) involves effector cells binding to which part of the antibody?",
+"options": [
+"Fab region",
+"Fc region",
+"Hinge region",
+"Light chain"
+],
+"correct": 1,
+"explanation": "Killer cells recognize and bind to the antibody through Fc receptors, leading to the destruction of the target cell by releasing toxic molecules (Page 45)."
+},
+{
+"question": "Which of the following is NOT a mechanical barrier of innate immunity?",
+"options": [
+"Intact skin",
+"Mucous membranes",
+"Antibodies",
+"Cilia"
+],
+"correct": 2,
+"explanation": "Antibodies are part of acquired (specific) immunity, whereas skin, mucous membranes, and cilia are mechanical barriers of natural immunity (Page 4, 5, 17)."
+},
+{
+"question": "What is the approximate size of a T-lymphocyte?",
+"options": [
+"10-15 microns",
+"6-8 microns",
+"20-25 microns",
+"1-2 microns"
+],
+"correct": 1,
+"explanation": "Lymphocytes are 6-8 microns in diameter (NK is 10-15 micron) (Page 23)."
+},
+{
+"question": "Which type of interferon is secreted by virally infected cells to exert a paracrine effect on adjacent cells?",
+"options": [
+"Type I IFN (alpha and beta)",
+"Type II IFN (gamma)",
+"Type III IFN (lambda)",
+"Interleukin-12"
+],
+"correct": 0,
+"explanation": "Type I IFN is secreted by the virally infected cell into the extra-cellular fluid, it exerts a paracrine effect on adjacent cells to inhibit virus growth (Page 34)."
+},
+{
+"question": "What is the function of Heparin released from mast cell granules?",
+"options": [
+"Vasodilatation",
+"Anticoagulant and activates C1q",
+"Contraction of smooth muscles",
+"Stimulates glandular secretion"
+],
+"correct": 1,
+"explanation": "Heparin is an anticoagulant and activates C1q (Page 63)."
+},
+{
+"question": "Which complement fragment decreases T cell function?",
+"options": [
+"C3a",
+"C5a",
+"C3b",
+"C4a"
+],
+"correct": 0,
+"explanation": "C3a decreases T cell function, while C5a increases T cell function (Page 61)."
+},
+{
+"question": "Which of the following is NOT a function of T-lymphocytes?",
+"options": [
+"Cell mediated immunity",
+"Delayed hypersensitivity reaction",
+"Production of antibodies",
+"Rejection of tissue graft"
+],
+"correct": 2,
+"explanation": "T-lymphocytes are involved in cell-mediated immunity, delayed hypersensitivity, graft rejection, elimination of tumor cells, and regulation of antibody production, but they do not produce antibodies (that is the function of B-lymphocytes/plasma cells) (Page 30)."
+},
+{
+"question": "What is the valence (antigen binding sites) of secretory IgA (sIgA)?",
+"options": [
+"One",
+"Two",
+"Four",
+"Five"
+],
+"correct": 2,
+"explanation": "sIgA is a dimer, so it has four antigen-binding sites (valence: Four) (Page 51)."
+},
+{
+"question": "What is the characteristic of the secondary immune response regarding antibody production?",
+"options": [
+"IgM is predominant",
+"IgG is predominant",
+"IgE is predominant",
+"IgA is predominant"
+],
+"correct": 1,
+"explanation": "IgG is the major antibody in secondary immune response (predominate late in infections) (Page 48)."
 }
 ]
