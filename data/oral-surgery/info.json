@@ -1,21 +1,23 @@
 {
-  "id": "oral-surgery",
-  "name": "Oral Surgery",
-  "description": "Test version for Oral Surgery",
+  "id": "oral-medicine",
+  "name": "Oral Medicine",
+  "description": "Oral Medicine lectures and quizzes",
 
   "chapters": [
     {
       "id": "ch1",
-      "name": "Extraction",
-      "quiz": "data/oral-surgery/ch1-quiz.json",
-      "pdf": "data/oral-surgery/ch1-notes.pdf",
-      "questions": 20
+      "name": "Basic Immunology",
+      "quiz": "data/oral-medicine/Basic Immunology-quiz.json",
+      "pdf": "data/oral-medicine/Basic Immunology.pdf",
+      "guide": "data/oral-medicine/guides/Basic Immunology.pdf",
+      "questions": 50
     },
     {
       "id": "ch2",
-      "name": "Impacted Teeth",
-      "quiz": "data/oral-surgery/ch2-quiz.json",
-      "pdf": "data/oral-surgery/ch2-notes.pdf",
+      "name": "Allergy",
+      "quiz": "data/oral-medicine/Allergy-quiz.json",
+      "pdf": "data/oral-medicine/Allergy.pdf",
+      "guide": "data/oral-medicine/guides/Allergy.pdf",
       "questions": 20
     }
   ]
