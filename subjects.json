@@ -1,20 +1,62 @@
 [
   {
-    "id":   "oral-surgery",
+    "id": "oral-medicine",
+    "name": "Oral Medicine",
+    "icon": "🩺",
+    "file": "data/oral-medicine/info.json"
+  },
+  {
+    "id": "periodontology",
+    "name": "Periodontology",
+    "icon": "🦷",
+    "file": "data/periodontology/info.json"
+  },
+  {
+    "id": "diagnosis",
+    "name": "Diagnosis",
+    "icon": "🕵️",
+    "file": "data/diagnosis/info.json"
+  },
+  {
+    "id": "x-ray",
+    "name": "X-ray",
+    "icon": "🩻",
+    "file": "data/x-ray/info.json"
+  },
+  {
+    "id": "pedo",
+    "name": "Pedo",
+    "icon": "👶",
+    "file": "data/pedo/info.json"
+  },
+  {
+    "id": "oral-surgery",
     "name": "Oral Surgery",
     "icon": "🦷",
     "file": "data/oral-surgery/info.json"
   },
   {
-    "id":   "operative",
+    "id": "endodontics",
+    "name": "Endodontics",
+    "icon": "🩺",
+    "file": "data/endodontics/info.json"
+  },
+  {
+    "id": "operative",
     "name": "Operative",
     "icon": "🔬",
     "file": "data/operative/info.json"
   },
   {
-    "id":   "endodontics",
-    "name": "Endodontics",
-    "icon": "🩺",
-    "file": "data/endodontics/info.json"
+    "id": "prosthesis",
+    "name": "Prosthesis",
+    "icon": "🦷",
+    "file": "data/prosthesis/info.json"
+  },
+  {
+    "id": "crown",
+    "name": "Crown",
+    "icon": "👑",
+    "file": "data/crown/info.json"
   }
 ]
