@@ -7,7 +7,7 @@
     {
       "id": "ch1",
       "name": "Basic Immunology",
-      "quiz": "data/oral-medicine/Basic Immunology-quiz.json",
+      "quiz": "data/oral-medicine/ch1-quiz.json",
       "pdf": "data/oral-medicine/Basic Immunology.pdf",
       "guide": "data/oral-medicine/guides/Basic Immunology.pdf",
       "questions": 50
